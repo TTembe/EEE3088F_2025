@@ -5606,6 +5606,16 @@
 		)
 		(uuid "ed0660f8-39e0-470f-be3c-7cea0338ce01")
 	)
+	(label "MOTOR1_A_OUT"
+		(at 200.66 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b1543f-7c34-49a8-9b25-6b7c60387b8d")
+	)
 	(global_label "MOTOR3_A_OUT"
 		(shape output)
 		(at 125.73 41.91 0)
@@ -6042,28 +6052,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR1_A_OUT"
-		(shape output)
-		(at 200.66 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ece158af-1485-4d06-9e78-caf82ca1af98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8571 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
