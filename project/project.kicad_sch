@@ -6954,6 +6954,16 @@
 		)
 		(uuid "ceb7d94b-32a6-46bd-9e2d-fddf73d620e5")
 	)
+	(label "Battery"
+		(at 387.35 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cff08c34-3385-4196-bd07-ffc26c4ffee8")
+	)
 	(label "5V Out"
 		(at 306.07 80.01 0)
 		(effects
@@ -7091,28 +7101,6 @@
 		(uuid "5211db1d-f538-428d-a596-42106be154d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.4685 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD"
-		(shape input)
-		(at 387.35 52.07 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5566109c-f5f3-4941-8c77-12ba400667fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.35 45.4562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,6 +7867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "SS-12D10L9"
+			(at 369.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d7654c22-7da6-4f7a-b1e8-dcbe303d9da7")
 		)
@@ -8425,6 +8422,15 @@
 			)
 		)
 		(property "Description" "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Adjustable 1.8-5.5V Output Voltage, WSON-6"
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "MT3608L"
 			(at 266.7 92.71 0)
 			(effects
 				(font
@@ -9294,6 +9300,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "AP2114H-3.3TRG1"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "641652c2-e00f-4648-a81b-73109a5c249e")
 		)
@@ -10058,6 +10073,15 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 350.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "TYPE-C 6P(040新)"
 			(at 350.52 76.2 0)
 			(effects
 				(font
@@ -11467,6 +11491,15 @@
 			)
 		)
 		(property "Description" "100W USB Type-C PD3.0/2.0, BC1.2 Sink Controller, SSOP-10"
+			(at 384.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CH224K"
 			(at 384.81 86.36 0)
 			(effects
 				(font
