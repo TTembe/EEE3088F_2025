@@ -9792,7 +9792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "SS-12D10L9"
+		(property "LCSC" "C319011"
 			(at 369.57 25.4 0)
 			(effects
 				(font
@@ -10560,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "MT3608L"
+		(property "LCSC" "C2932326"
 			(at 266.7 92.71 0)
 			(effects
 				(font
@@ -11496,7 +11496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "AP2114H-3.3TRG1"
+		(property "LCSC" "C150716"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -12475,7 +12475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "TYPE-C 6P(040新)"
+		(property "LCSC" "C2887422"
 			(at 350.52 76.2 0)
 			(effects
 				(font
@@ -14423,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CH224K"
+		(property "LCSC" "C970725"
 			(at 384.81 86.36 0)
 			(effects
 				(font
