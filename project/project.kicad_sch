@@ -5660,6 +5660,18 @@
 		)
 	)
 	(rectangle
+		(start 11.43 77.47)
+		(end 81.28 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2fe89fab-6905-4fb9-b1e6-c81b02b2b7c8)
+	)
+	(rectangle
 		(start 53.34 13.97)
 		(end 212.09 77.47)
 		(stroke
@@ -5917,6 +5929,16 @@
 		)
 		(uuid "f35c40b2-c9e0-413d-a255-a98298581eed")
 	)
+	(text "Battery Monitor"
+		(exclude_from_sim no)
+		(at 44.45 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f92e953c-635c-4230-a534-2e2d458b17f2")
+	)
 	(junction
 		(at 97.79 147.32)
 		(diameter 0)
@@ -5936,10 +5958,22 @@
 		(uuid "149d77eb-e01d-4df5-b489-61c322ea2f9a")
 	)
 	(junction
+		(at 143.51 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc3faec-fcde-4b7a-9d46-2f9b4bf981e0")
+	)
+	(junction
 		(at 275.59 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20794fba-58eb-4d3c-ab8f-496243becb2c")
+	)
+	(junction
+		(at 207.01 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c9d514-e393-4234-8813-25a77c6c0c94")
 	)
 	(junction
 		(at 387.35 57.15)
@@ -6407,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 147.32) (xy 146.05 147.32)
+			(xy 142.24 147.32) (xy 143.51 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6587,6 +6621,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 143.51) (xy 209.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3e4f3f-0bbc-4c4a-a3ac-2dfdb61fe042")
+	)
+	(wire
+		(pts
 			(xy 370.84 91.44) (xy 370.84 96.52)
 		)
 		(stroke
@@ -6634,6 +6678,16 @@
 			(type default)
 		)
 		(uuid "2091965d-2104-4943-ac54-41ad65be294a")
+	)
+	(wire
+		(pts
+			(xy 143.51 147.32) (xy 146.05 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23441857-81fc-4b72-8dc1-cf08167a72fa")
 	)
 	(wire
 		(pts
@@ -6937,7 +6991,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 143.51) (xy 209.55 143.51)
+			(xy 205.74 143.51) (xy 207.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8467,7 +8521,7 @@
 		)
 		(uuid "1aad2c40-3399-4ee1-ab53-6391a85f9ff1")
 	)
-	(label "EXT_LOAD1_OUT"
+	(label "EXT_LOAD2_OUT"
 		(at 146.05 147.32 0)
 		(effects
 			(font
@@ -8507,7 +8561,7 @@
 		)
 		(uuid "31507984-0902-4336-97eb-caecbfd503de")
 	)
-	(label "CTRL_EXT_LOAD1"
+	(label "CTRL_EXT_LOAD2"
 		(at 100.33 144.78 180)
 		(effects
 			(font
@@ -8557,7 +8611,7 @@
 		)
 		(uuid "38bad3f7-8004-4ef8-b5e6-9ba27a8d65ff")
 	)
-	(label "BATT"
+	(label "BATTERY"
 		(at 21.59 99.06 180)
 		(effects
 			(font
@@ -8586,6 +8640,16 @@
 			(justify right bottom)
 		)
 		(uuid "4016bc8f-3167-4f20-af30-82b4f3d116b8")
+	)
+	(label "GND"
+		(at 21.59 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40f3d041-f95f-4c7a-8611-b5e5a9c07fad")
 	)
 	(label "Battery"
 		(at 243.84 31.75 180)
@@ -9099,16 +9163,6 @@
 		)
 		(uuid "ed0660f8-39e0-470f-be3c-7cea0338ce01")
 	)
-	(label "BATT-"
-		(at 21.59 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f03661a1-0d08-44ae-b5da-bc816d75fe61")
-	)
 	(global_label "9V"
 		(shape input)
 		(at 95.25 104.14 180)
@@ -9446,7 +9500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 205.74 147.32 0)
 			(effects
 				(font
@@ -9632,6 +9686,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122837"
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a089895e-cbda-46a7-87a9-8c8cf46d7a4f")
 		)
@@ -9735,6 +9798,72 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "116510fc-5782-4d77-8cf7-5e828aba6d9f")
+		(property "Reference" "TP14"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.51 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbe2fd9-9bf7-45d1-b366-d0e07e403361")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -9847,7 +9976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 200.66 49.53 0)
 			(effects
 				(font
@@ -10306,7 +10435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.7k"
+		(property "Value" "4.7k"
 			(at 68.58 95.2499 0)
 			(effects
 				(font
@@ -10385,7 +10514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 199.39 85.09 0)
 			(effects
 				(font
@@ -10464,7 +10593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 285.75 88.9 0)
 			(effects
 				(font
@@ -10905,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 73.66 31.75 0)
 			(effects
 				(font
@@ -10975,7 +11104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -11084,6 +11213,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad0536b-fba0-457c-9ff1-90d2252a5684")
+		(property "Reference" "TP1"
+			(at 209.55 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.55 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815a4e5c-ad72-4c8c-a999-8831341d2e65")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 384.81 96.52 0)
 		(unit 1)
@@ -11159,7 +11355,7 @@
 		(dnp no)
 		(uuid "531cef14-4b18-4afb-8d23-d3221681f455")
 		(property "Reference" "TP10"
-			(at 194.056 39.878 0)
+			(at 200.66 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,7 +11364,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 194.056 38.1 0)
+			(at 204.724 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 200.66 41.91 0)
 			(effects
 				(font
@@ -11243,7 +11439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 283.21 45.72 0)
 			(effects
 				(font
@@ -11632,7 +11828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 251.46 41.91 0)
 			(effects
 				(font
@@ -11882,7 +12078,7 @@
 		(dnp no)
 		(uuid "67fb4b39-b927-4784-9d43-bd87d0a4890a")
 		(property "Reference" "TP5"
-			(at 152.4 96.012 0)
+			(at 152.4 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11891,7 +12087,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 152.4 97.79 0)
+			(at 152.4 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11899,7 +12095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 157.48 101.6 0)
 			(effects
 				(font
@@ -12033,7 +12229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 203.2 91.44 0)
 			(effects
 				(font
@@ -12310,7 +12506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 295.91 39.37 0)
 			(effects
 				(font
@@ -12380,7 +12576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 149.86 105.41 0)
 			(effects
 				(font
@@ -12540,7 +12736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 73.66 21.59 0)
 			(effects
 				(font
@@ -12609,7 +12805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 125.73 41.91 0)
 			(effects
 				(font
@@ -12676,7 +12872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 151.13 0)
 			(effects
 				(font
@@ -12745,7 +12941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -12812,7 +13008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 283.21 36.83 0)
 			(effects
 				(font
@@ -12882,7 +13078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -13018,7 +13214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 134.62 27.94 0)
 			(effects
 				(font
@@ -13204,6 +13400,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122837"
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "66582388-d5bb-4af9-b11e-51a58eda3f8b")
 		)
@@ -13274,7 +13479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 163.83 110.49 0)
 			(effects
 				(font
@@ -13344,7 +13549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -13480,7 +13685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 237.49 87.63 0)
 			(effects
 				(font
@@ -13550,7 +13755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 83.82 93.98 0)
 			(effects
 				(font
@@ -13750,7 +13955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 115.57 44.45 0)
 			(effects
 				(font
@@ -14126,7 +14331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -14501,7 +14706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 115.57 52.07 0)
 			(effects
 				(font
@@ -14568,7 +14773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 59.69 27.94 0)
 			(effects
 				(font
@@ -14638,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 100.33 151.13 0)
 			(effects
 				(font
@@ -14707,7 +14912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -14840,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 163.83 147.32 0)
 			(effects
 				(font
@@ -15053,6 +15258,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50506"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15539,7 +15753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -15609,7 +15823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 367.792 60.96 90)
 			(effects
 				(font
@@ -15677,7 +15891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.7 99.06 0)
 			(effects
 				(font
@@ -15810,7 +16024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 378.46 66.802 90)
 			(effects
 				(font
@@ -15986,6 +16200,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C87469"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d7a370ca-9c2c-41d4-bdbe-7b8723ba40f3")
 		)
@@ -16047,7 +16270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 189.23 52.07 0)
 			(effects
 				(font
@@ -16114,7 +16337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 285.75 97.79 0)
 			(effects
 				(font
@@ -16184,7 +16407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -16254,7 +16477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 300.99 86.36 0)
 			(effects
 				(font
@@ -16388,7 +16611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 391.16 57.15 0)
 			(effects
 				(font
@@ -16456,7 +16679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.59 21.59 0)
 			(effects
 				(font
@@ -16526,7 +16749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 143.51 96.52 0)
 			(effects
 				(font
@@ -16594,7 +16817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.59 31.75 0)
 			(effects
 				(font
