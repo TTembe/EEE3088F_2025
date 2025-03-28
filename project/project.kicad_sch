@@ -13606,7 +13606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:CONN_TYPE-C-6P_SHN"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 354.33 73.66 0)
 			(effects
 				(font
@@ -14289,7 +14289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -17515,6 +17515,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 342.9 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc79d888-9e92-4bde-b634-403fa622ceaa")
+		(property "Reference" "#PWR035"
+			(at 342.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95242cd2-1807-4325-a6d2-a1f58d92f86d")
+		)
+		(instances
+			(project "project"
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 194.31 52.07 180)
 		(unit 1)
@@ -18359,7 +18425,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "0.5m"
 			(at 243.84 166.3699 0)
 			(effects
 				(font
@@ -18368,7 +18434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
 			(at 244.602 165.1 90)
 			(effects
 				(font
@@ -18395,7 +18461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C500635"
+		(property "LCSC" "C105052"
 			(at 246.38 165.1 0)
 			(effects
 				(font
