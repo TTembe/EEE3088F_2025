@@ -9676,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS22965DSGR:SON50P200X200X80-9N"
+		(property "Footprint" "Footprint:TPS22965DSGR"
 			(at 119.38 147.32 0)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TP4056:SOP127P600X175-9N"
+		(property "Footprint" "Footprint:TP4056"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -13308,7 +13308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS22965DSGR:SON50P200X200X80-9N"
+		(property "Footprint" "Footprint:TPS22965DSGR"
 			(at 182.88 143.51 0)
 			(effects
 				(font
@@ -14112,7 +14112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8833PWPR:IC_DRV8833PWPR"
+		(property "Footprint" "Footprint:DRV8833PWPR"
 			(at 172.72 46.99 0)
 			(effects
 				(font
@@ -15219,7 +15219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8833PWPR:IC_DRV8833PWPR"
+		(property "Footprint" "Footprint:DRV8833PWPR"
 			(at 97.79 46.99 0)
 			(effects
 				(font
@@ -16198,7 +16198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INA219AIDCNR:SOT65P280X145-8N"
+		(property "Footprint" "Footprint:INA219AIDCNR"
 			(at 46.99 101.6 0)
 			(effects
 				(font
