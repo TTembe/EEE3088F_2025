@@ -744,137 +744,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -4464,6 +4333,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:MIC5219YMM"
 			(pin_names
 				(offset 0.254)
@@ -6080,6 +6099,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 222.25 142.24)
@@ -6726,6 +6846,10 @@
 	(no_connect
 		(at 364.49 22.86)
 		(uuid "63bb50fe-e516-45da-8e7c-328ae849ee79")
+	)
+	(no_connect
+		(at 370.84 140.97)
+		(uuid "7ad6d05b-deff-485f-8200-7b42d1dd8450")
 	)
 	(no_connect
 		(at 118.11 36.83)
@@ -7905,6 +8029,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 130.81) (xy 237.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a4aaf1-e15d-42e0-9332-2aeaa40e74c6")
+	)
+	(wire
+		(pts
 			(xy 129.54 105.41) (xy 127 105.41)
 		)
 		(stroke
@@ -7912,6 +8046,16 @@
 			(type default)
 		)
 		(uuid "81beb37b-e1c8-406a-85d5-98314a046521")
+	)
+	(wire
+		(pts
+			(xy 236.22 120.65) (xy 236.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d6d792-94b7-4899-8ac9-736b72a3c092")
 	)
 	(wire
 		(pts
@@ -9115,6 +9259,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 123.19) (xy 254 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9af51b2-97a9-43e1-be43-380b5df15a76")
+	)
+	(wire
+		(pts
 			(xy 370.84 88.9) (xy 374.65 88.9)
 		)
 		(stroke
@@ -9244,6 +9398,16 @@
 			(justify left bottom)
 		)
 		(uuid "1aad2c40-3399-4ee1-ab53-6391a85f9ff1")
+	)
+	(label "Motor2_B_OUT"
+		(at 254 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e86ede9-7364-4f6e-b289-4b8010a5e9af")
 	)
 	(label "EXT_LOAD2_OUT"
 		(at 140.97 187.96 0)
@@ -9455,6 +9619,16 @@
 			(justify left bottom)
 		)
 		(uuid "55fc0daf-ac50-44a0-9e2c-7fb17bf2a4cd")
+	)
+	(label "Battery"
+		(at 237.49 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59d19c0a-e21c-4951-92a1-f60a3443cc52")
 	)
 	(label "Battery"
 		(at 231.14 80.01 180)
@@ -9914,7 +10088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 364.49 27.94 0)
 			(effects
 				(font
@@ -9979,7 +10153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 279.4 80.01 90)
 			(effects
 				(font
@@ -10016,6 +10190,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 279.4 80.01 0)
 			(effects
 				(font
@@ -10100,75 +10283,6 @@
 			(project ""
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 368.3 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e3179aa-0b98-47f4-8363-ba890471d2d2")
-		(property "Reference" "TP3"
-			(at 358.394 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 352.298 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 368.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b91eb37b-1399-4e3d-a0e4-04f0ac64092d")
-		)
-		(pin "2"
-			(uuid "69279ab0-afc9-4168-a636-f9baf897f1d8")
-		)
-		(instances
-			(project ""
-				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10752,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -11652,76 +11766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 182.88 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bd39a47-884d-475d-a752-23d2efe40ca1")
-		(property "Reference" "TP15"
-			(at 185.42 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 185.42 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4009add8-8631-440e-93f7-b5da93242736")
-		)
-		(pin "1"
-			(uuid "e9d5b2a2-e4ba-4d27-8a4d-5244c8c305f8")
-		)
-		(instances
-			(project ""
-				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:TS5A3159ADBVR")
 		(at 116.84 120.65 0)
 		(unit 1)
@@ -12174,6 +12218,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 199.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f441ecb-c82f-497f-9202-aa9786e3befb")
+		(property "Reference" "JP1"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb880edf-2435-41ee-92d6-6b55559e770a")
+		)
+		(pin "2"
+			(uuid "c9ad772c-ad7c-41dc-865b-ed3219e29d2e")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 195.58 41.91 0)
 		(unit 1)
@@ -12344,7 +12456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
 			(at 375.92 140.97 0)
 			(effects
 				(font
@@ -12975,6 +13087,138 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 254 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b13a1ed-defb-441c-9590-11e3a5e438b1")
+		(property "Reference" "#FLG01"
+			(at 254 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e0c0280-1d61-482d-acbb-5be2afcc2c4d")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 236.22 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701f3b5e-2ab1-41e7-ad96-73ce5082ee07")
+		(property "Reference" "#FLG02"
+			(at 236.22 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eab96c1-d3c2-471a-8a66-f9dc509cea7d")
+		)
+		(instances
+			(project "project"
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -14019,6 +14263,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 179.07 85.09 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "945d63a5-f652-43d5-8a44-bc3c1e8e0337")
+		(property "Reference" "JP2"
+			(at 163.322 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 154.178 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8defca23-209a-4a44-816f-b7b286786eda")
+		)
+		(pin "1"
+			(uuid "a5e1873a-79b1-436f-a880-659bfad93788")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPS22965DSGR:TPS22965DSGR")
 		(at 177.8 184.15 0)
 		(unit 1)
@@ -14718,6 +15031,76 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 182.88 85.09 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9f6d427-93b6-4265-a359-762b3822f42f")
+		(property "Reference" "JP3"
+			(at 185.42 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 185.42 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619a577f-0985-468e-a987-0155d9be3f79")
+		)
+		(pin "2"
+			(uuid "3a6d3f9e-a67f-41ed-8438-7a159ceb83a7")
+		)
+		(instances
+			(project "project"
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -17436,6 +17819,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 368.3 91.44 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e202d741-feba-47cb-8c44-b3adff656af9")
+		(property "Reference" "JP4"
+			(at 369.57 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 369.57 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 368.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 368.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5717fe1-50db-4afe-af4b-fe57d60dc0e2")
+		)
+		(pin "2"
+			(uuid "5441de4a-e37f-4528-bbe1-68311d29a97a")
+		)
+		(instances
+			(project "project"
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 97.79 0)
 		(unit 1)
@@ -17906,7 +18359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3m"
+		(property "Value" "1m"
 			(at 243.84 166.3699 0)
 			(effects
 				(font
@@ -17915,7 +18368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 244.602 165.1 90)
 			(effects
 				(font
@@ -17942,7 +18395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C500635"
 			(at 246.38 165.1 0)
 			(effects
 				(font
@@ -18100,144 +18553,6 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 199.39 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa9087b8-09c2-49e7-802f-ebf75c75f42f")
-		(property "Reference" "TP4"
-			(at 199.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdf2b01c-e23e-4972-955d-085c2650992b")
-		)
-		(pin "1"
-			(uuid "22e20136-1199-4ba4-87df-52d74c7024b1")
-		)
-		(instances
-			(project ""
-				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 179.07 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd23acd8-86e1-4f45-9cba-d80d9695c372")
-		(property "Reference" "TP16"
-			(at 181.61 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 181.61 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b934bb03-12ec-4e29-8592-1fd1c6eafff7")
-		)
-		(pin "1"
-			(uuid "0e9beff0-4fe7-464f-a52b-68b82f8ed79e")
-		)
-		(instances
-			(project "project"
-				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
