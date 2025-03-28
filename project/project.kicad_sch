@@ -5,244 +5,6 @@
 	(uuid "f99403a2-5f0d-4f36-8249-ee7d0699b27a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "AP63203WU-7:AP63203WU-7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP63203WU-7"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "AP63203WU-7_DIO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "AP63203WU-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AP63203WU-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "AP63203WU-7_DIO AP63203WU-7_DIO-M AP63203WU-7_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP63203WU-7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 0 0 0)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4465,6 +4227,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:AP63203WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63203WU"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP63203WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63203WU_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS61099DRV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6084,12 +6036,6 @@
 		(uuid "69cc264c-09f1-4539-aae8-ea9132b3c57d")
 	)
 	(junction
-		(at 143.51 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8094b1bf-2fca-40da-b19e-bbf1a20de5ea")
-	)
-	(junction
 		(at 68.58 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6148,6 +6094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac3da387-d72a-4214-8451-3fb103c0f42e")
+	)
+	(junction
+		(at 143.51 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf4ba99-f87a-4140-b83a-3309abdfa8b0")
 	)
 	(junction
 		(at 283.21 31.75)
@@ -6268,6 +6220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f288904d-a49c-4ae0-8b29-5f084f09ab3e")
+	)
+	(junction
+		(at 104.14 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29d0f92-bdec-474d-a361-fbb1138ac50b")
 	)
 	(junction
 		(at 149.86 101.6)
@@ -6661,6 +6619,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 99.06) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd3cd18-9499-40b2-8e4d-fdffd157da5a")
+	)
+	(wire
+		(pts
 			(xy 66.04 96.52) (xy 66.04 118.11)
 		)
 		(stroke
@@ -6701,6 +6669,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2759158f-545d-486d-b64e-7793471a6efb")
+	)
+	(wire
+		(pts
 			(xy 251.46 31.75) (xy 261.62 31.75)
 		)
 		(stroke
@@ -6718,6 +6696,16 @@
 			(type default)
 		)
 		(uuid "2b781d4f-d486-4376-a565-eb7f7a3e0eb6")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4c426d-0d6f-4aa9-9665-3ca9a53eda7d")
 	)
 	(wire
 		(pts
@@ -6851,6 +6839,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eaf69e8-7767-4da4-9e91-6de0367f1e0c")
+	)
+	(wire
+		(pts
 			(xy 100.33 147.32) (xy 100.33 148.59)
 		)
 		(stroke
@@ -6941,13 +6939,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 96.52 99.06)
+			(xy 96.52 101.6) (xy 104.14 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cfa908e-25a0-4cca-b774-66ec43dc5abc")
+		(uuid "4c861f78-5302-40b2-a530-b094ee640148")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db5613a-8b5b-4da2-8995-db8178f23421")
 	)
 	(wire
 		(pts
@@ -6978,6 +6986,16 @@
 			(type default)
 		)
 		(uuid "4fb54819-a63d-4585-8490-27a0b08b25c0")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5050e908-9ec5-42d8-9cb6-95bf70f14a87")
 	)
 	(wire
 		(pts
@@ -7091,6 +7109,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e52e00f-966d-4ed6-a96b-ac177b4d41cb")
+	)
+	(wire
+		(pts
 			(xy 163.83 149.86) (xy 163.83 151.13)
 		)
 		(stroke
@@ -7168,6 +7196,26 @@
 			(type default)
 		)
 		(uuid "66719f69-6d78-4f5a-82b1-81b68aedb3f0")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ddde81-643e-4b2f-9356-7b68df253114")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694d76ac-58cd-4147-b20c-5def944126d2")
 	)
 	(wire
 		(pts
@@ -7511,6 +7559,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce928c7-c306-4254-8c36-0770d6bc4638")
+	)
+	(wire
+		(pts
 			(xy 134.62 24.13) (xy 152.4 24.13)
 		)
 		(stroke
@@ -7641,6 +7699,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 101.6) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985c7d01-e432-4ec9-a760-192734ef1ec0")
+	)
+	(wire
+		(pts
 			(xy 66.04 118.11) (xy 26.67 118.11)
 		)
 		(stroke
@@ -7758,6 +7826,16 @@
 			(type default)
 		)
 		(uuid "acd04020-b8dd-4635-85e1-400095fb6f9e")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af759466-2b95-4c8c-9bc7-93f93512aa75")
 	)
 	(wire
 		(pts
@@ -7978,6 +8056,16 @@
 			(type default)
 		)
 		(uuid "c96eb514-4842-4cfc-b6db-dfe8e87f73d0")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5f7c5e-a406-4637-9aa5-ba700862e791")
 	)
 	(wire
 		(pts
@@ -8251,6 +8339,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fdf74b-242d-40d5-9739-87214a371f50")
+	)
+	(wire
+		(pts
 			(xy 95.25 104.14) (xy 96.52 104.14)
 		)
 		(stroke
@@ -8351,6 +8449,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ae11f4-b052-455a-acec-fb199ce157c3")
+	)
+	(wire
+		(pts
 			(xy 354.33 27.94) (xy 359.41 27.94)
 		)
 		(stroke
@@ -8358,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "f4d27de3-59f0-4995-8e0c-93c14911c5e1")
-	)
-	(wire
-		(pts
-			(xy 96.52 92.71) (xy 143.51 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a9e33e-541b-4d6f-b35a-fb34690d6a84")
 	)
 	(polyline
 		(pts
@@ -8428,6 +8526,16 @@
 			(type default)
 		)
 		(uuid "f9aff1a2-ab3e-49b4-bb84-4e780a67557f")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddf0335-ec6f-40b8-90d5-b43e357eef04")
 	)
 	(wire
 		(pts
@@ -10855,88 +10963,6 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AP63203WU-7:AP63203WU-7")
-		(at 96.52 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31ecaef0-37d8-4c2d-a1e5-723b1c8010eb")
-		(property "Reference" "U4"
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP63203WU-7"
-			(at 116.84 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "AP63203WU-7_DIO"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP63203WU-7"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1243d01-3ec1-45ab-b67b-d9056bc7fac0")
-		)
-		(pin "6"
-			(uuid "f3c05e36-bf07-40ef-832e-34969410bb06")
-		)
-		(pin "3"
-			(uuid "9ec2e1b2-d017-4fd1-bf23-2a65bb336e01")
-		)
-		(pin "5"
-			(uuid "66b28387-d0ec-4b0f-a3db-c4a26b57fa1f")
-		)
-		(pin "4"
-			(uuid "a312a958-a6ac-481c-bef0-57bc4e98b2cc")
-		)
-		(pin "2"
-			(uuid "4f92e838-1b4f-4a41-9f02-df29f61ac828")
-		)
-		(instances
-			(project "project"
-				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14501,6 +14527,86 @@
 			(project "project"
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63203WU")
+		(at 116.84 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d9753d-7707-4571-83ab-281080c94f1c")
+		(property "Reference" "U4"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "931d2d2f-e0bc-44dc-b29e-cbad52289364")
+		)
+		(pin "3"
+			(uuid "57a5d104-7bbb-4ba2-a7fd-14cab7c143bd")
+		)
+		(pin "2"
+			(uuid "24cc326e-acd4-4569-b485-23fe6cacbc16")
+		)
+		(pin "4"
+			(uuid "32dc151d-5eb1-4cac-b318-a96525a32b5f")
+		)
+		(pin "5"
+			(uuid "36c1f20d-1e18-48c2-b441-f280fc7657d5")
+		)
+		(pin "6"
+			(uuid "1472e1b8-de19-47f1-b180-e442648526c2")
+		)
+		(instances
+			(project ""
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "U4")
 					(unit 1)
 				)
 			)
