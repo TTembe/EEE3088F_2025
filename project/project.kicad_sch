@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f99403a2-5f0d-4f36-8249-ee7d0699b27a")
 	(paper "A3")
+	(title_block
+		(title "Power subsystem")
+		(company "University of Cape Town")
+		(comment 1 "TMBTLA001")
+		(comment 2 "MDLOXO001")
+		(comment 3 "Group 65")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:TS5A3159ADBVR"
 			(pin_names
@@ -6247,7 +6254,7 @@
 		(uuid 80797de3-994a-428a-a9f1-50f524d65f87)
 	)
 	(rectangle
-		(start 69.85 77.47)
+		(start 69.85 76.2)
 		(end 214.63 153.67)
 		(stroke
 			(width 0)
@@ -8654,6 +8661,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 125.73) (xy 288.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74ba51c-027a-4c69-924d-1b5bd34c7625")
+	)
+	(wire
+		(pts
 			(xy 134.62 30.48) (xy 134.62 33.02)
 		)
 		(stroke
@@ -9463,6 +9480,16 @@
 			(justify left bottom)
 		)
 		(uuid "38bad3f7-8004-4ef8-b5e6-9ba27a8d65ff")
+	)
+	(label "3V3 Out"
+		(at 288.29 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d35ee2-7fd3-45b0-8254-09f8dc9ca64e")
 	)
 	(label "BATT"
 		(at 246.38 160.02 90)
@@ -10556,7 +10583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:TPS22965DSGR"
+		(property "Footprint" "Footprint:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 114.3 187.96 0)
 			(effects
 				(font
@@ -11029,7 +11056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -11661,7 +11688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Footprint:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL_3"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -13117,6 +13144,72 @@
 			(project ""
 				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 288.29 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee2476b-419d-4653-b8b6-310a4a1840b1")
+		(property "Reference" "#FLG05"
+			(at 288.29 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 288.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 288.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85011eb-0b7c-4edf-bf76-5335bc1d99f3")
+		)
+		(instances
+			(project "project"
+				(path "/f99403a2-5f0d-4f36-8249-ee7d0699b27a"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -14783,7 +14876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:TPS22965DSGR"
+		(property "Footprint" "Footprint:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 177.8 184.15 0)
 			(effects
 				(font
@@ -15624,7 +15717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:DRV8833PWPR"
+		(property "Footprint" "Footprint:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
 			(at 172.72 46.99 0)
 			(effects
 				(font
@@ -16776,7 +16869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:DRV8833PWPR"
+		(property "Footprint" "Footprint:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
 			(at 97.79 46.99 0)
 			(effects
 				(font

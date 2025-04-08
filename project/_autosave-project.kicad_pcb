@@ -1228,7 +1228,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0f2b1008-616e-456a-b317-a4ade17e7d5b")
-		(at 146 74.5525 90)
+		(at 143.49 77.2525 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -1870,7 +1870,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "152e555d-549a-463b-95b8-92e80350d004")
-		(at 141.5 77.3875 90)
+		(at 138.99 80.0875 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -6824,7 +6824,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "645c3324-c376-4240-a5f1-58e2fb9e3b42")
-		(at 142 73.5525 90)
+		(at 139.49 76.2525 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -12543,7 +12543,7 @@
 	(footprint "Footprint:INA219AIDCNR"
 		(layer "F.Cu")
 		(uuid "a3f71e89-c94e-4441-a806-68ac620f2be4")
-		(at 150.755 73.825 180)
+		(at 148.245 76.525 180)
 		(property "Reference" "U8"
 			(at 0.925 -2.635 0)
 			(layer "F.SilkS")
@@ -16938,6 +16938,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e8bdc9db-07b0-4b26-846d-a3c70a5f98db")
+	)
+	(gr_text "TMBTLA001\nMDLOXO001\nGROUP 65"
+		(at 119.5 109.5 0)
+		(layer "B.SilkS")
+		(uuid "71e1ebda-d021-40b3-8ce9-f1e620361b40")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(embedded_fonts no)
 )
