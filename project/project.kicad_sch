@@ -6251,7 +6251,7 @@
 	)
 	(rectangle
 		(start 77.47 167.64)
-		(end 208.28 208.28)
+		(end 219.71 208.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -9730,16 +9730,6 @@
 		)
 		(uuid "700aa3c6-57e2-415a-84b5-a58b259b1812")
 	)
-	(label "3V3"
-		(at 316.23 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "747a957e-b8f2-42c6-a373-9732fce8f45f")
-	)
 	(label "MOTOR3_B_OUT"
 		(at 123.19 44.45 0)
 		(effects
@@ -9782,7 +9772,7 @@
 		(uuid "7e6240b0-164a-4989-b3b7-e027096da7eb")
 	)
 	(label "EXT_LOAD1_OUT"
-		(at 204.47 184.15 90)
+		(at 204.47 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9840,6 +9830,16 @@
 			(justify right bottom)
 		)
 		(uuid "a4d224eb-64b0-4ea7-9d5b-bc2880be2e47")
+	)
+	(label "3V3 Out"
+		(at 316.23 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a52959c9-019a-4523-9a5d-9d8bc67f10cc")
 	)
 	(label "5V Out"
 		(at 383.54 146.05 0)
@@ -10638,7 +10638,7 @@
 		(dnp no)
 		(uuid "116510fc-5782-4d77-8cf7-5e828aba6d9f")
 		(property "Reference" "TP14"
-			(at 138.43 181.61 0)
+			(at 134.112 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +10647,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 138.43 183.388 0)
+			(at 132.842 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,10 +12092,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ad0536b-fba0-457c-9ff1-90d2252a5684")
 		(property "Reference" "TP1"
-			(at 204.47 179.5779 0)
+			(at 200.152 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +12103,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 204.47 182.1179 0)
+			(at 199.136 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18434,7 +18433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3"
 			(at 244.602 165.1 90)
 			(effects
 				(font
@@ -18461,7 +18460,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105052"
+		(property "LCSC" "C252656"
 			(at 246.38 165.1 0)
 			(effects
 				(font
